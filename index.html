@@ -29,11 +29,16 @@
               cursor: pointer;
               color: white;
               background: transparent;
-              margin: 6px 3px 1px;
+              margin: 1px 1px 1px auto;
               font-size: 18px;
               height: 30px;
               width: 30px;
             }
+
+            .right {
+            margin-left: 695px;
+            }
+
         </style>
     </head>
 
@@ -45,6 +50,7 @@
                     <button class="js-pause-button video-button"><i class="fa-solid fa-pause"></i></button>
                     <button class="js-volume-button video-button"><i class="fa-solid fa-volume-up"></i></button>
                     <button class="js-mute-button video-button"><i class="fa-solid fa-volume-off"></i></button>
+                    <button class="js-fullscreen-button video-button right"><i class="fa-solid fa-expand"></i></button>
                 </div>
             </div>
         </div>
@@ -57,3 +63,8 @@
           createPlayer({elementId: 'player'});
         </script>
     </body>
+
+          <button class="js-mute-button video-button"><i class="fa fa-volume-up video-icon" aria-hidden="true"></i></button>
+        </div>
+        <div class="video-buttons-right">
+          <button class="js-fullscreen-button video-button"><i class="fa fa-expand video-icon" aria-hidden="true"></i></button>
