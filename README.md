@@ -1,7 +1,8 @@
 # Video Player.
 Проект по верстке видеоплеера. Проект построен на js-библиотеке [video-player-jslib](https://github.com/devmanorg/video-player-jslib).
 
-![image]
+
+![image](webfonts/video-player.png)
 
 
 ## Video player example.
